@@ -8,7 +8,7 @@ Installation Procedure:
 
 1. Place this file in /usr/local/bin (anywhere will do, but this is the recommended location)
 2. Make sure it is owned by root:root and has the permissions 755 (-rwxr-xr-x) applied to it
-3. Edit /etc/samba/smb.conf and add the line below  [global]
+3. Edit /etc/samba/smb.conf and add the following line under [global]
 
 ```
 dfree command = /usr/local/bin/dfree_pool_min
